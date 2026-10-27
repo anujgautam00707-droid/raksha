@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine translated. Needs native-speaker review. -->
+<resources>
+    <!-- App name -->
+    <string name="app_name">Raksha</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Startseite</string>
+    <string name="nav_contacts">Kontakte</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <!-- Home Screen -->
+    <string name="home_app_title">Raksha</string>
+    <string name="home_status_line">Du bist geschützt</string>
+    <string name="home_test_mode_banner">⚠ Testmodus</string>
+    <string name="home_sos_title">SOS</string>
+    <string name="home_sos_subtitle">Tippen Sie um Hilfe zu erhalten</string>
+
+    <!-- Action Buttons -->
+    <string name="home_action_call_emergency">Notruf</string>
+    <string name="home_action_call_trusted">Vertrauensperson anrufen</string>
+    <string name="home_action_alarm">Alarm</string>
+    <string name="home_action_fake_call">Anruf vortäuschen</string>
+
+    <!-- Status Cards -->
+    <string name="status_gps_label">GPS</string>
+    <string name="status_gps_value">Lokalisierung läuft…</string>
+    <string name="status_signal_label">Signal</string>
+    <string name="status_signal_value">Stark</string>
+    <string name="status_battery_label">Akku</string>
+    <string name="status_battery_value">%1$d%%</string>
+    <string name="status_sos_status_label">SOS-Status</string>
+    <string name="status_sos_status_value">Inaktiv</string>
+
+    <!-- Contacts Screen -->
+    <string name="contacts_title">Kontakte</string>
+    <string name="contacts_description">Verwalten Sie Ihre vertrauten Kontakte\nfür schnelle Hilfe</string>
+
+    <!-- Tools Screen -->
+    <string name="tools_title">Tools</string>
+    <string name="tools_description">Sicherheitsfunktionen und\nerweiterte Optionen</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_subtitle">Einstellungen, Notfallkonfiguration und Profil</string>
+    <string name="settings_section_emergency">NOTFALLKONFIGURATION</string>
+    <string name="settings_emergency_number_title">Notrufnummer</string>
+    <string name="settings_share_gps_title">Live-GPS freigeben</string>
+    <string name="settings_share_gps_subtitle">Senden Sie Ihren Standort wenn SOS ausgelöst wird</string>
+    <string name="settings_alarm_siren_title">Alarmsirene</string>
+    <string name="settings_alarm_siren_subtitle">Alarmsirene abspielen wenn SOS-Countdown endet</string>
+    <string name="settings_section_preferences">APP-EINSTELLUNGEN</string>
+    <string name="settings_dark_theme_title">Dunkles Design</string>
+    <string name="settings_dark_theme_on">An</string>
+    <string name="settings_dark_theme_off">Aus</string>
+    <string name="settings_language_title">App-Sprache</string>
+    <string name="settings_section_about">ÜBER &amp; SICHERHEIT</string>
+    <string name="settings_about_title">Über Raksha</string>
+    <string name="settings_about_version">Version %1$s</string>
+    <string name="settings_privacy_title">Datenschutz</string>
+    <string name="settings_privacy_subtitle">Wie Ihre Daten verarbeitet werden</string>
+
+    <!-- Profile Card -->
+    <string name="settings_profile_empty">Ihren Namen hinzufügen</string>
+    <string name="settings_profile_hint">Wird in Ihrer SOS-Nachricht verwendet · Tippen zum Bearbeiten</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_profile_title">Ihr Name</string>
+    <string name="dialog_emergency_number_title">Notrufnummer</string>
+    <string name="dialog_about_title">Über Raksha</string>
+    <string name="dialog_privacy_title">Datenschutz</string>
+    <string name="dialog_language_title">App-Sprache</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_about_message">Version %1$s\n\nEine persönliche Sicherheits-App um vertraute Kontakte schnell zu benachrichtigen. Raksha hilft Ihnen schneller Personen zu erreichen aber kann Schutz oder Reaktion nicht garantieren.</string>
+    <string name="dialog_privacy_message">Ihre Einstellungen Kontakte und Standort bleiben auf diesem Telefon. Raksha hat keine Werbung keine Tracker und keine Server. Ihr Standort wird nur per SMS an Ihre Vertrauenspersonen gesendet wenn Sie SOS auslösen.</string>
+    <string name="dialog_language_unavailable_message">Das Ändern der Sprache in der App erfordert Android 13 oder neuer. Ändern Sie stattdessen die Sprache Ihres Telefons in den Systemeinstellungen.</string>
+    <string name="dialog_language_select_title">App-Sprache</string>
+
+    <!-- Buttons -->
+    <string name="button_save">Speichern</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_ok">OK</string>
+</resources>

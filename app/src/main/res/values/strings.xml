@@ -1,3 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">raksha</string>
+    <!-- App name -->
+    <string name="app_name">Raksha</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_app_title">Raksha</string>
+    <string name="home_status_line">You\'re protected</string>
+    <string name="home_test_mode_banner">⚠ Test mode</string>
+    <string name="home_sos_title">SOS</string>
+    <string name="home_sos_subtitle">Tap for help</string>
+
+    <!-- Action Buttons -->
+    <string name="home_action_call_emergency">Call Emergency</string>
+    <string name="home_action_call_trusted">Call Trusted</string>
+    <string name="home_action_alarm">Alarm</string>
+    <string name="home_action_fake_call">Fake Call</string>
+
+    <!-- Status Cards -->
+    <string name="status_gps_label">GPS</string>
+    <string name="status_gps_value">Locating…</string>
+    <string name="status_signal_label">Signal</string>
+    <string name="status_signal_value">Strong</string>
+    <string name="status_battery_label">Battery</string>
+    <string name="status_battery_value">%1$d%%</string>
+    <string name="status_sos_status_label">SOS Status</string>
+    <string name="status_sos_status_value">Inactive</string>
+
+    <!-- Contacts Screen -->
+    <string name="contacts_title">Contacts</string>
+    <string name="contacts_description">Manage your trusted contacts\nfor quick assistance</string>
+
+    <!-- Tools Screen -->
+    <string name="tools_title">Tools</string>
+    <string name="tools_description">Safety features and\nadvanced options</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Preferences, emergency setup &amp; profile</string>
+    <string name="settings_section_emergency">EMERGENCY CONFIGURATION</string>
+    <string name="settings_emergency_number_title">Emergency Number</string>
+    <string name="settings_share_gps_title">Share Live GPS</string>
+    <string name="settings_share_gps_subtitle">Send your location when SOS triggers</string>
+    <string name="settings_alarm_siren_title">Alarm Siren</string>
+    <string name="settings_alarm_siren_subtitle">Play a siren when the SOS countdown ends</string>
+    <string name="settings_section_preferences">APP PREFERENCES</string>
+    <string name="settings_dark_theme_title">Dark Theme</string>
+    <string name="settings_dark_theme_on">On</string>
+    <string name="settings_dark_theme_off">Off</string>
+    <string name="settings_language_title">App Language</string>
+    <string name="settings_section_about">ABOUT &amp; SECURITY</string>
+    <string name="settings_about_title">About Raksha</string>
+    <string name="settings_about_version">Version %1$s</string>
+    <string name="settings_privacy_title">Privacy</string>
+    <string name="settings_privacy_subtitle">How your data is handled</string>
+
+    <!-- Profile Card -->
+    <string name="settings_profile_empty">Add your name</string>
+    <string name="settings_profile_hint">Used in your SOS message · tap to edit</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_profile_title">Your name</string>
+    <string name="dialog_emergency_number_title">Emergency number</string>
+    <string name="dialog_about_title">About Raksha</string>
+    <string name="dialog_privacy_title">Privacy</string>
+    <string name="dialog_language_title">App Language</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_about_message">Version %1$s\n\nA personal safety app to alert trusted contacts quickly. Raksha helps you reach people faster but cannot guarantee protection or a response.</string>
+    <string name="dialog_privacy_message">Your settings, contacts and location stay on this phone. Raksha has no ads, no trackers and no servers. Your location is only sent by SMS to your own trusted contacts when you trigger SOS.</string>
+    <string name="dialog_language_unavailable_message">Changing the language inside the app needs Android 13 or newer. Change your phone\'s language in system Settings instead.</string>
+    <string name="dialog_language_select_title">App Language</string>
+
+    <!-- Buttons -->
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
 </resources>

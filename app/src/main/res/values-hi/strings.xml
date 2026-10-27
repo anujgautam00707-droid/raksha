@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine translated. Needs native-speaker review. -->
+<resources>
+    <!-- App name -->
+    <string name="app_name">राक्षा</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_contacts">संपर्क</string>
+    <string name="nav_tools">उपकरण</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <!-- Home Screen -->
+    <string name="home_app_title">राक्षा</string>
+    <string name="home_status_line">आप सुरक्षित हैं</string>
+    <string name="home_test_mode_banner">⚠ टेस्ट मोड</string>
+    <string name="home_sos_title">SOS</string>
+    <string name="home_sos_subtitle">सहायता के लिए टैप करें</string>
+
+    <!-- Action Buttons -->
+    <string name="home_action_call_emergency">आपातकालीन कॉल करें</string>
+    <string name="home_action_call_trusted">विश्वासित संपर्क को कॉल करें</string>
+    <string name="home_action_alarm">अलार्म</string>
+    <string name="home_action_fake_call">नकली कॉल</string>
+
+    <!-- Status Cards -->
+    <string name="status_gps_label">GPS</string>
+    <string name="status_gps_value">खोज रहे हैं…</string>
+    <string name="status_signal_label">सिग्नल</string>
+    <string name="status_signal_value">मजबूत</string>
+    <string name="status_battery_label">बैटरी</string>
+    <string name="status_battery_value">%1$d%%</string>
+    <string name="status_sos_status_label">SOS स्थिति</string>
+    <string name="status_sos_status_value">निष्क्रिय</string>
+
+    <!-- Contacts Screen -->
+    <string name="contacts_title">संपर्क</string>
+    <string name="contacts_description">अपने विश्वासित संपर्कों को प्रबंधित करें\nतेज़ सहायता के लिए</string>
+
+    <!-- Tools Screen -->
+    <string name="tools_title">उपकरण</string>
+    <string name="tools_description">सुरक्षा सुविधाएँ और\nउन्नत विकल्प</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_subtitle">प्राथमिकताएँ, आपातकालीन सेटअप और प्रोफाइल</string>
+    <string name="settings_section_emergency">आपातकालीन कॉन्फ़िगरेशन</string>
+    <string name="settings_emergency_number_title">आपातकालीन संख्या</string>
+    <string name="settings_share_gps_title">लाइव GPS साझा करें</string>
+    <string name="settings_share_gps_subtitle">SOS ट्रिगर होने पर अपना स्थान भेजें</string>
+    <string name="settings_alarm_siren_title">अलार्म साइरन</string>
+    <string name="settings_alarm_siren_subtitle">SOS गिनती समाप्त होने पर साइरन चलाएँ</string>
+    <string name="settings_section_preferences">ऐप प्राथमिकताएँ</string>
+    <string name="settings_dark_theme_title">डार्क थीम</string>
+    <string name="settings_dark_theme_on">चालू</string>
+    <string name="settings_dark_theme_off">बंद</string>
+    <string name="settings_language_title">ऐप भाषा</string>
+    <string name="settings_section_about">सूचना और सुरक्षा</string>
+    <string name="settings_about_title">राक्षा के बारे में</string>
+    <string name="settings_about_version">संस्करण %1$s</string>
+    <string name="settings_privacy_title">गोपनीयता</string>
+    <string name="settings_privacy_subtitle">आपका डेटा कैसे संभाला जाता है</string>
+
+    <!-- Profile Card -->
+    <string name="settings_profile_empty">अपना नाम जोड़ें</string>
+    <string name="settings_profile_hint">आपके SOS संदेश में उपयोग किया जाता है · संपादित करने के लिए टैप करें</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_profile_title">आपका नाम</string>
+    <string name="dialog_emergency_number_title">आपातकालीन संख्या</string>
+    <string name="dialog_about_title">राक्षा के बारे में</string>
+    <string name="dialog_privacy_title">गोपनीयता</string>
+    <string name="dialog_language_title">ऐप भाषा</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_about_message">संस्करण %1$s\n\nएक व्यक्तिगत सुरक्षा ऐप जो विश्वासित संपर्कों को तेज़ी से सचेत करता है। राक्षा आपको लोगों तक तेज़ी से पहुँचने में मदद करता है लेकिन सुरक्षा या प्रतिक्रिया की गारंटी नहीं दे सकता।</string>
+    <string name="dialog_privacy_message">आपकी सेटिंग्स, संपर्क और स्थान इस फोन पर रहते हैं। राक्षा में कोई विज्ञापन, ट्रैकर या सर्वर नहीं है। आपका स्थान केवल SMS द्वारा आपके विश्वासित संपर्कों को भेजा जाता है जब आप SOS ट्रिगर करते हैं।</string>
+    <string name="dialog_language_unavailable_message">ऐप के अंदर भाषा बदलने के लिए Android 13 या नई आवश्यकता है। इसके बजाय अपने फोन की भाषा सिस्टम सेटिंग्स में बदलें।</string>
+    <string name="dialog_language_select_title">ऐप भाषा</string>
+
+    <!-- Buttons -->
+    <string name="button_save">सहेजें</string>
+    <string name="button_cancel">रद्द करें</string>
+    <string name="button_ok">ठीक है</string>
+</resources>

@@ -1,6 +1,12 @@
 package com.example.raksha.ui.navigation
 
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Handyman
+import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -8,6 +14,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
@@ -61,9 +69,22 @@ private fun RakshaBottomBar(navController: NavHostController) {
                         }
                     }
                 },
-                icon = { Text(text = screen.icon) },
-                label = { Text(text = screen.label) }
+                icon = {
+                    Icon(
+                        imageVector = getScreenIcon(screen),
+                        contentDescription = stringResource(screen.labelRes),
+                        modifier = Modifier
+                    )
+                },
+                label = { Text(text = stringResource(screen.labelRes)) }
             )
         }
     }
+}
+
+private fun getScreenIcon(screen: Screen): ImageVector = when (screen) {
+    Screen.Home -> Icons.Filled.Home
+    Screen.Contacts -> Icons.Filled.Person
+    Screen.Tools -> Icons.Filled.Handyman
+    Screen.Settings -> Icons.Filled.Settings
 }

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine translated. Needs native-speaker review. -->
+<resources>
+    <!-- App name -->
+    <string name="app_name">Raksha</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">主页</string>
+    <string name="nav_contacts">联系人</string>
+    <string name="nav_tools">工具</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Home Screen -->
+    <string name="home_app_title">Raksha</string>
+    <string name="home_status_line">你受到保护</string>
+    <string name="home_test_mode_banner">⚠ 测试模式</string>
+    <string name="home_sos_title">SOS</string>
+    <string name="home_sos_subtitle">点击寻求帮助</string>
+
+    <!-- Action Buttons -->
+    <string name="home_action_call_emergency">呼叫紧急服务</string>
+    <string name="home_action_call_trusted">呼叫信任的联系人</string>
+    <string name="home_action_alarm">警报</string>
+    <string name="home_action_fake_call">虚假来电</string>
+
+    <!-- Status Cards -->
+    <string name="status_gps_label">GPS</string>
+    <string name="status_gps_value">定位中…</string>
+    <string name="status_signal_label">信号</string>
+    <string name="status_signal_value">强</string>
+    <string name="status_battery_label">电池</string>
+    <string name="status_battery_value">%1$d%%</string>
+    <string name="status_sos_status_label">SOS 状态</string>
+    <string name="status_sos_status_value">未激活</string>
+
+    <!-- Contacts Screen -->
+    <string name="contacts_title">联系人</string>
+    <string name="contacts_description">管理你的信任联系人\n获得快速帮助</string>
+
+    <!-- Tools Screen -->
+    <string name="tools_title">工具</string>
+    <string name="tools_description">安全功能和\n高级选项</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">设置</string>
+    <string name="settings_subtitle">偏好设置、紧急设置和个人资料</string>
+    <string name="settings_section_emergency">紧急配置</string>
+    <string name="settings_emergency_number_title">紧急电话号码</string>
+    <string name="settings_share_gps_title">共享实时 GPS</string>
+    <string name="settings_share_gps_subtitle">SOS 触发时发送你的位置</string>
+    <string name="settings_alarm_siren_title">警报声</string>
+    <string name="settings_alarm_siren_subtitle">SOS 倒计时结束时播放警报声</string>
+    <string name="settings_section_preferences">应用偏好设置</string>
+    <string name="settings_dark_theme_title">深色主题</string>
+    <string name="settings_dark_theme_on">开启</string>
+    <string name="settings_dark_theme_off">关闭</string>
+    <string name="settings_language_title">应用语言</string>
+    <string name="settings_section_about">关于和安全</string>
+    <string name="settings_about_title">关于 Raksha</string>
+    <string name="settings_about_version">版本 %1$s</string>
+    <string name="settings_privacy_title">隐私</string>
+    <string name="settings_privacy_subtitle">你的数据如何被处理</string>
+
+    <!-- Profile Card -->
+    <string name="settings_profile_empty">添加你的名字</string>
+    <string name="settings_profile_hint">在 SOS 消息中使用 · 点击编辑</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_profile_title">你的名字</string>
+    <string name="dialog_emergency_number_title">紧急号码</string>
+    <string name="dialog_about_title">关于 Raksha</string>
+    <string name="dialog_privacy_title">隐私</string>
+    <string name="dialog_language_title">应用语言</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_about_message">版本 %1$s\n\n一款个人安全应用，可快速提醒信任的联系人。Raksha 帮助你更快地联系他人，但无法保证保护或响应。</string>
+    <string name="dialog_privacy_message">你的设置、联系人和位置留在这部手机上。Raksha 没有广告、追踪器或服务器。只有当你触发 SOS 时，你的位置才会通过短信发送给你的信任联系人。</string>
+    <string name="dialog_language_unavailable_message">在应用中更改语言需要 Android 13 或更新版本。请改为在系统设置中更改你的手机语言。</string>
+    <string name="dialog_language_select_title">应用语言</string>
+
+    <!-- Buttons -->
+    <string name="button_save">保存</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_ok">确定</string>
+</resources>

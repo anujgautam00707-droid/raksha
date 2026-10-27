@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Machine translated. Needs native-speaker review. -->
+<resources>
+    <!-- App name -->
+    <string name="app_name">Raksha</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">ホーム</string>
+    <string name="nav_contacts">連絡先</string>
+    <string name="nav_tools">ツール</string>
+    <string name="nav_settings">設定</string>
+
+    <!-- Home Screen -->
+    <string name="home_app_title">Raksha</string>
+    <string name="home_status_line">保護されています</string>
+    <string name="home_test_mode_banner">⚠ テストモード</string>
+    <string name="home_sos_title">SOS</string>
+    <string name="home_sos_subtitle">ヘルプをタップ</string>
+
+    <!-- Action Buttons -->
+    <string name="home_action_call_emergency">緊急通報</string>
+    <string name="home_action_call_trusted">信頼できる連絡先に電話</string>
+    <string name="home_action_alarm">アラーム</string>
+    <string name="home_action_fake_call">偽の電話</string>
+
+    <!-- Status Cards -->
+    <string name="status_gps_label">GPS</string>
+    <string name="status_gps_value">位置情報取得中…</string>
+    <string name="status_signal_label">信号</string>
+    <string name="status_signal_value">強い</string>
+    <string name="status_battery_label">バッテリー</string>
+    <string name="status_battery_value">%1$d%%</string>
+    <string name="status_sos_status_label">SOS ステータス</string>
+    <string name="status_sos_status_value">非アクティブ</string>
+
+    <!-- Contacts Screen -->
+    <string name="contacts_title">連絡先</string>
+    <string name="contacts_description">信頼できる連絡先を管理\n素早いサポートのために</string>
+
+    <!-- Tools Screen -->
+    <string name="tools_title">ツール</string>
+    <string name="tools_description">セキュリティ機能と\n高度なオプション</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">設定</string>
+    <string name="settings_subtitle">設定、緊急設定とプロフィール</string>
+    <string name="settings_section_emergency">緊急設定</string>
+    <string name="settings_emergency_number_title">緊急番号</string>
+    <string name="settings_share_gps_title">ライブ GPS を共有</string>
+    <string name="settings_share_gps_subtitle">SOS がトリガーされたときに位置を送信</string>
+    <string name="settings_alarm_siren_title">アラーム サイレン</string>
+    <string name="settings_alarm_siren_subtitle">SOS カウントダウン終了時にサイレンを鳴らす</string>
+    <string name="settings_section_preferences">アプリの設定</string>
+    <string name="settings_dark_theme_title">ダークテーマ</string>
+    <string name="settings_dark_theme_on">オン</string>
+    <string name="settings_dark_theme_off">オフ</string>
+    <string name="settings_language_title">アプリの言語</string>
+    <string name="settings_section_about">情報とセキュリティ</string>
+    <string name="settings_about_title">Raksha について</string>
+    <string name="settings_about_version">バージョン %1$s</string>
+    <string name="settings_privacy_title">プライバシー</string>
+    <string name="settings_privacy_subtitle">データの取り扱い方法</string>
+
+    <!-- Profile Card -->
+    <string name="settings_profile_empty">名前を追加</string>
+    <string name="settings_profile_hint">SOS メッセージで使用 · タップして編集</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_profile_title">あなたの名前</string>
+    <string name="dialog_emergency_number_title">緊急番号</string>
+    <string name="dialog_about_title">Raksha について</string>
+    <string name="dialog_privacy_title">プライバシー</string>
+    <string name="dialog_language_title">アプリの言語</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_about_message">バージョン %1$s\n\n信頼できる連絡先に素早く警告する個人安全アプリです。Raksha は人に素早く連絡するのに役立ちますが、保護や応答を保証することはできません。</string>
+    <string name="dialog_privacy_message">設定、連絡先、位置情報はこの携帯電話上に残ります。Raksha には広告、トラッカー、サーバーはありません。位置情報は SOS をトリガーしたときだけ SMS で信頼できる連絡先に送信されます。</string>
+    <string name="dialog_language_unavailable_message">アプリ内で言語を変更するには Android 13 以降が必要です。代わりにシステム設定で携帯電話の言語を変更してください。</string>
+    <string name="dialog_language_select_title">アプリの言語</string>
+
+    <!-- Buttons -->
+    <string name="button_save">保存</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="button_ok">OK</string>
+</resources>
